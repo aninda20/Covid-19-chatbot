@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, take care ",
+        "Stay Home, Stay Safe!",
+        "Bye! take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "intro",
+      "patterns": [
+        "What is a coronavirus?",
+        "What is COVID-19?"
+      ],
+      "responses": [
+        "Coronaviruses are a large family of viruses which may cause illness in animals or humans.",
+        "In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases",
+        "COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of COVID-19?"
+      ],
+      "responses": [
+        "The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually.",
+        "Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing."
+      ]
+    },
+    {
+      "tag": "precautions",
+      "patterns": [
+        "What can I do to prevent the spread of disease?",
+        "How to prevent the spread of covid-19?",
+        "What precautions we have to take?"
+      ],
+      "responses": [
+        "Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.",
+        "Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.",
+        "Avoid touching eyes, nose and mouth.",
+        "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately."
+      ]
+    },
+    {
+      "tag": "spread",
+      "patterns": [
+        "How does COVID-19 spread?",
+        "How does Corona spread?"
+      ],
+      "responses": [
+        "People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales.",
+        "Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air.",
+        "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low."
+      ]
+    },
+    {
+      "tag": "tips",
+      "patterns": [
+        "Is there anything I should not do?"
+      ],
+      "responses": [
+        "Smoking",
+        "Wearing multiple masks."
+      ]
+    },
+    {
+      "tag": "first",
+      "patterns": [
+        "How did the first human SARS-CoV-2 infections occur?",
+        "How did first human get infected?"
+      ],
+      "responses": [
+        "The first human cases of COVID-19 were identified in Wuhan City, China in December 2019.",
+        "SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans."
+      ]
+    },
+    {
+      "tag": "expression",
+      "patterns": [
+        "ok",
+        "got it",
+        "yes"
+      ],
+      "responses": [
+        "Hmm",
+        "yeah"
+      ]
+    }
+  ]
+}
